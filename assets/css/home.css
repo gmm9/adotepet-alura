@@ -1,0 +1,85 @@
+@import url('./base.css');
+@import url('./header.css');
+@import url('./botao.css');
+@import url('./foooter.css');
+
+.background__meio {
+    background-image: url("/alura/adotepet/assets/img/background2.png");
+    background-repeat: no-repeat;
+    background-size: 84.03px 415px;
+    background-position-x: 290.7px;
+    background-position-y: 30%;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    /* background-size: contain; */
+}
+
+.menu__imagem {
+    width: 55vw;
+    margin-top: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.menu__titulo {
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+    font-size: 26px;
+    margin-bottom: 1em;
+}
+
+.background__dog {
+    display: flex;
+    margin-top: 1em;
+    justify-content: center;
+    z-index: -1;
+}
+
+.imagem__dog {
+    width: 60vw;
+}
+
+.rodape__menu {
+    margin-top: -0.8em;
+    position: absolute;
+}
+.menu__texto {
+    width:248px;
+    height: 72px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+
+    .background__meio {
+        background-position-x: 670px;
+        background-size: 134.5px;
+    }
+    .menu__imagem {
+        width: 250px;
+    }
+    .menu  {
+        padding-top: 2em;
+    }
+    .menu__texto {
+        font-size: 18px;
+        width: 344px;
+        height: 78px;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    .imagem__dog {
+        width: 338px;
+    }
+    .rodape__menu {
+        margin-top: -1.4em;
+    }
+}
+    
+

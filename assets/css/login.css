@@ -1,0 +1,23 @@
+@import url('./base.css');
+@import url('./header.css');
+@import url('./formulario.css');
+@import url('./botao.css');
+@import url('./foooter.css');
+
+.form__background {
+    background-image: url("../img/backgroundcadastro.png");
+    background-repeat:no-repeat;
+    background-position: left;
+    background-position-y: 160px;
+    background-size: 15%;
+}
+
+@media screen and (min-width: 768px) {
+    .formulario {
+        padding-bottom: 10em;
+    }
+    .rodape {
+        margin-top: 3em;
+    }
+
+}

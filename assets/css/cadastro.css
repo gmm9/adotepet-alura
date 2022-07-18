@@ -1,0 +1,18 @@
+@import url('./base.css');
+@import url('./header.css');
+@import url('./formulario.css');
+@import url('./botao.css');
+@import url('./foooter.css');
+
+.form__background {
+background-position-y: 240px;
+background-size: 20%;
+}
+
+@media screen and (min-width: 768px){
+    
+    .rodape {
+        margin-top: 5em;
+    }
+    
+}

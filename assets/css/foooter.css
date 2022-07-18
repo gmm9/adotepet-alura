@@ -1,0 +1,13 @@
+.rodape {
+    color: var(--branco);
+    width: 100%;
+    background-color: var(--verde-claro);
+    text-align: center;
+    z-index: 2;
+}
+.rodape__texto {
+    padding: 2em;
+}
+.form__dados {
+    padding-bottom: 6em;
+}

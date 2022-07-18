@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+}
+.botao {
+    margin: 0 auto;
+    display: block;
+    color: var(--branco);
+    font-weight: 600;
+    width: 47%;
+    padding: 0.5em;
+    background-color: var(--coral);
+    border-radius: 6px;
+    margin-top: 1.3em;
+}
+.botao:hover{
+    background-color: var(--coral-fraco);
+    border: none;
+}
+.botao:visited {
+   color: #fff;
+}

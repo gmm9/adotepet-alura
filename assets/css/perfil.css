@@ -1,0 +1,56 @@
+ @import url('./base.css');
+ @import url('./header.css');
+ @import url('./mensagem.css');
+ @import url('./foooter.css');
+
+ .mensagem__texto {
+     text-align: center;
+     width: 70%;
+ }
+
+ .mensagem__titulo {
+     text-align: center;
+     color: var(--cinza-escuro);
+     font-weight: 600;
+ }
+
+ .foto__mensagem {
+     display: block;
+     margin: 0 auto;
+     width: 30%;
+ }
+
+ .mensagem__legenda {
+     margin-top: 0.5em;
+     font-size: 12px;
+     color: var(--coral);
+     text-align: center;
+ }
+
+ .mensagem__input::placeholder {
+     font-size: 14px;
+     color: var(--cinza-escuro);
+ }
+
+ .mensagem__area::placeholder {
+     position: absolute;
+     font-size: 14px;
+     font-family: var(--fonte-principal);
+     color: var(--cinza-escuro);
+     text-align: left;
+     top: 13px;
+ }
+
+ .rodape {
+     margin-top: 2em;
+ }
+
+ @media screen and (min-width: 768px) {
+    .background__meio {
+        background-image: url("/alura/adotepet/assets/img/background2.png");
+        background-repeat: no-repeat;
+        background-size: 135px;
+        background-position-x: 660px;
+        background-position-y: 0px;
+    }
+ }

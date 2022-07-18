@@ -1,0 +1,49 @@
+@import url('./base.css');
+@import url('./header.css');
+@import url('./formulario.css');
+@import url('./card.css');
+@import url('./foooter.css');
+
+
+/* body {
+
+    /* background: url('../img/background1.png') no-repeat, #FFFFFF; */
+    /* background-position: left 72%, 0;
+    display: flex;
+    flex-direction: column;
+} */
+
+/* .fundo__background {
+    z-index: 1;
+    width: 412px;
+    height: 915px;
+} */
+.nav__perfil{
+    left: 72.6%;
+}
+.form__texto {
+    margin-bottom: 1em;
+    width: 60%;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .nav__perfil {
+        left: 90%;
+    }
+    .form__texto {
+        margin-top: 5em;
+        width: 100%;
+    }
+    .formulario {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content:space-between;
+    }
+    .rodape {
+        margin-top: 1.5em;
+    }
+
+}

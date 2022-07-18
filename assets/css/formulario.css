@@ -1,0 +1,81 @@
+
+.formulario { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.form__logo {
+    width:50vw;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+.form__texto {
+    width: 90%;
+    margin-bottom: 0.5em;
+}
+.form__div {
+margin-top: 1em;
+}
+.form__label {
+    color: var(--cinza-escuro);
+}
+.form__input {
+    display: block;
+    width: 80vw;
+    padding: 1em;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    font-size: 12px;
+    background-color: var(--branco-cinza);
+}
+.form__input::placeholder {
+    color: var(--cinza-claro);
+    font-size: 12px;
+    text-align: center;
+}
+.form__senha {
+    background: url(../img/olhinho.svg) no-repeat;
+    background-position:24em;
+    background-color: var(--branco-cinza);
+}
+.form__legenda {
+    color: var(--coral);
+    font-size: 12px;
+    text-decoration: underline;
+}
+.form__background-mobile {
+        background-image: url("../img/backgroundcadastro.png");
+        background-repeat:no-repeat;
+        background-position: left;
+    }
+ 
+@media screen and (min-width: 768px){
+
+    .formulario {
+        padding-top: 2em;
+    }
+
+    .form__logo {
+      width: 250px;  
+    }
+    .form__texto {
+        margin: 0;
+        width: 60%;
+    }
+    .form__background-mobile {
+        background-image: url("../img/background2.png");
+        background-repeat:no-repeat;
+        background-position: right;
+        background-size: 13vw;
+        background-position-y: 140px;
+    }
+    .form__input {
+        width: 40vw;
+    }
+    .form__botao {
+        padding-top: 1em;
+    }
+}
