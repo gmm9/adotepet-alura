@@ -82,4 +82,30 @@
     }
 }
     
+@media screen and (min-width: 1440px) {
+    
+    .background__meio {
+        background-position-x: 1320px;
+        background-size: 134.5px; 
+    }
+    .menu {
+        padding-top: 0;
+        padding-bottom: 1.5em;
+    }
+    .menu__imagem {
+        width: 300px;
+        padding-bottom: 1.5em;
+    }
+    .menu__texto {
+        width: 40vw;
+        margin-bottom:0;
+    }   
+    .botao__menu {
+        width: 25vw;
+    }
+    .imagem__dog {
+        margin-top: 0;
+    }
+
+}
 

@@ -41,4 +41,11 @@ body {
     .fundo__background {
         background-size: 70%;
     }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .fundo__background {
+        background-size: 40%
+    }
 }

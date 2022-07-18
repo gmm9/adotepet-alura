@@ -30,9 +30,6 @@ header {
     .nav__header-mobile {
         display: none;
     }
-    .nav__header-tablet {
-        display: flex;
-    }
     .nav__icones-logo {
         width: 128px;
     }
@@ -47,5 +44,16 @@ header {
         position: absolute;
         top: 8%;
         left: 89.5%;
+    }
+}
+@media screen and (min-width: 1440px) {
+
+
+    .nav__container {
+        padding-top: 1.5em;
+        padding-left: 3.5em;
+    }
+    header {
+        margin-bottom:0em;
     }
 }
