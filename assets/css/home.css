@@ -81,6 +81,11 @@
         margin-top: -1.4em;
     }
 }
+@media screen and (min-width: 1024px) {
+    .background__meio {
+        background-position-x: 900px;
+    }
+}
     
 @media screen and (min-width: 1440px) {
     
