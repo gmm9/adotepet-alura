@@ -4,7 +4,7 @@
 @import url('./foooter.css');
 
 .background__meio {
-    background-image: url("/alura/adotepet/assets/img/background2.png");
+    background-image: url("../img/background2.png");
     background-repeat: no-repeat;
     background-size: 84.03px 415px;
     background-position-x: 290.7px;
@@ -85,6 +85,7 @@
 @media screen and (min-width: 1440px) {
     
     .background__meio {
+        display: block;
         background-position-x: 1320px;
         background-size: 134.5px; 
     }
