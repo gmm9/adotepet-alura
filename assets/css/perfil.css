@@ -47,7 +47,7 @@
 
  @media screen and (min-width: 768px) {
     .background__meio {
-        background-image: url("/alura/adotepet/assets/img/background2.png");
+        background-image: url("../img/background2.png");
         background-repeat: no-repeat;
         background-size: 135px;
         background-position-x: 660px;

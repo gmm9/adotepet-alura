@@ -86,6 +86,12 @@
         background-position-x: 900px;
     }
 }
+
+@media screen and (min-width: 1330px) {
+    .background__meio {
+        background-position-x: 1240px;
+    }
+}
     
 @media screen and (min-width: 1440px) {
     
