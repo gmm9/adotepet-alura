@@ -21,3 +21,9 @@
     }
 
 }
+@media screen and (min-width: 1440px){
+    
+    .form__background-mobile {
+        background-size: 7.5%;
+    }
+}

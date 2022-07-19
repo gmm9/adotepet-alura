@@ -16,3 +16,12 @@ background-size: 20%;
     }
     
 }
+@media screen and (min-width: 1440px){
+    
+    .form__background-mobile {
+        background-size: 7%;
+    }
+    .formulario {
+        margin-bottom: 5em;
+    }
+}

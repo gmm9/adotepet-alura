@@ -54,3 +54,14 @@
         background-position-y: 0px;
     }
  }
+
+ @media screen and (min-width: 1440px) {
+    .background__meio {
+        background-size: 10%;
+        background-position-x: 100%;
+        background-position-y: 30%;
+    }
+    .foto__mensagem {
+        width: 15%;
+    }
+ }

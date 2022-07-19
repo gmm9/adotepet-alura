@@ -47,3 +47,16 @@
     }
 
 }
+
+@media screen and (min-width: 1440px) {
+    .formulario {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2em;
+    }
+    .form__background-mobile {
+        background-size: 8%;
+    }
+
+}
