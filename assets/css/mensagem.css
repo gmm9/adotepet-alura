@@ -100,3 +100,24 @@ font-weight: 600;
     padding-bottom: 6em;
 }
 }
+@media screen and (min-width: 1440px) {
+
+    .mensagem__bloco {
+        width: 70%;
+    }
+
+    .background__meio {
+    background-size: 10%;
+        background-position-x: 100%;
+        background-position-y: 40%;
+        display: flex;
+        justify-content: center;
+}
+    .botao {
+        width: 15%;
+    }
+
+    .foto__mensagem {
+        width: 10;
+    }
+}
